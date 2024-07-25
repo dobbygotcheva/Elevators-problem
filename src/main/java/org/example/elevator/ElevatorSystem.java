@@ -14,6 +14,23 @@ public class ElevatorSystem {
         this.passengers = passengers;
     }
 
+    // Getters and Setters
+    public List<Elevator> getElevators() {
+        return elevators;
+    }
+
+    public void setElevators(List<Elevator> elevators) {
+        this.elevators = elevators;
+    }
+
+    public List<Passenger> getPassengers() {
+        return passengers;
+    }
+
+    public void setPassengers(List<Passenger> passengers) {
+        this.passengers = passengers;
+    }
+
     public void assignPassengersToElevators() throws OverloadedElevatorException {
         for (Passenger passenger : new ArrayList<>(passengers)) {
             Elevator optimalElevator = findMostOptimalElevator(passenger);
@@ -45,23 +62,7 @@ public class ElevatorSystem {
         }
     }
 
-    // Getters and Setters
-    public List<Elevator> getElevators() {
-        return elevators;
-    }
-
-    public void setElevators(List<Elevator> elevators) {
-        this.elevators = elevators;
-    }
-
-    public List<Passenger> getPassengers() {
-        return passengers;
-    }
-
-    public void setPassengers(List<Passenger> passengers) {
-        this.passengers = passengers;
-    }
-
+   
     public void printFinalState() {
         System.out.println("Final State of Elevator System:");
         for (Elevator elevator : elevators) {
