@@ -1,0 +1,42 @@
+{
+  "elevators": [
+    {
+      "id": 1,
+      "currentFloor": 1,
+      "maxWeight": 1200,
+      "capacity": 20
+    },
+    {
+      "id": 2,
+      "currentFloor": 3,
+      "maxWeight": 1200,
+      "capacity": 20
+    },
+    {
+      "id": 3,
+      "currentFloor": 5,
+      "maxWeight": 1200,
+      "capacity": 20
+    }
+  ],
+  "passengers": [
+    {
+      "name": "Hannah",
+      "currentFloor": 2,
+      "targetFloor": 11,
+      "weight": 60
+    },
+    {
+      "name": "Ian",
+      "currentFloor": 4,
+      "targetFloor": 9,
+      "weight": 70
+    },
+    {
+      "name": "Jill",
+      "currentFloor": 1,
+      "targetFloor": 6,
+      "weight": 65
+    }
+  ]
+}

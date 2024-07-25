@@ -1,0 +1,30 @@
+{
+  "elevators": [
+    {
+      "id": 1,
+      "currentFloor": 0,
+      "maxWeight": 500,
+      "capacity": 5
+    },
+    {
+      "id": 2,
+      "currentFloor": 0,
+      "maxWeight": 500,
+      "capacity": 5
+    }
+  ],
+  "passengers": [
+    {
+      "name": "John Doe",
+      "targetFloor": 3,
+      "weight": 70,
+      "additionalParameter": 0
+    },
+    {
+      "name": "Jane Doe",
+      "targetFloor": 5,
+      "weight": 65,
+      "additionalParameter": 0
+    }
+  ]
+}

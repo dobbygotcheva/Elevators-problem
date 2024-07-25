@@ -1,0 +1,54 @@
+{
+  "elevators": [
+    {
+      "id": 1,
+      "currentFloor": 3,
+      "maxWeight": 120,
+      "capacity": 5
+    },
+    {
+      "id": 2,
+      "currentFloor": 1,
+      "maxWeight": 600,
+      "capacity": 10
+    },
+    {
+      "id": 3,
+      "currentFloor": 6,
+      "maxWeight": 600,
+      "capacity": 10
+    }
+  ],
+  "passengers": [
+    {
+      "name": "Georgi",
+      "currentFloor": 1,
+      "targetFloor": 4,
+      "weight": 100
+    },
+    {
+      "name": "Mihail",
+      "currentFloor": 1,
+      "targetFloor": 12,
+      "weight": 80
+    },
+    {
+      "name": "Petar",
+      "currentFloor": 4,
+      "targetFloor": 8,
+      "weight": 65
+    },
+    {
+      "name": "Ivana",
+      "currentFloor": 12,
+      "targetFloor": 1,
+      "weight": 52
+    },
+    {
+      "name": "Irena",
+      "currentFloor": 6,
+      "targetFloor": 1,
+      "weight": 55
+    }
+  ]
+}

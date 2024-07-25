@@ -1,0 +1,11 @@
+{
+  "elevators": [
+    {"id": 1, "currentFloor": 0, "maxWeight": 0, "capacity": 0},
+    {"id": 2, "currentFloor": 1, "maxWeight": 600, "capacity": 10},
+    {"id": 3, "currentFloor": 6, "maxWeight": 600, "capacity": 10}
+  ],
+  "passengers": [
+    {"name": "Fiona", "currentFloor": 1, "targetFloor": 5, "weight": 55},
+    {"name": "George", "currentFloor": 6, "targetFloor": 1, "weight": 85}
+  ]
+}
